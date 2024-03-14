@@ -172,9 +172,181 @@ text-align: center;
     margin-left: 4px;
 }
 
-@media  only screen and(min-width: 768px) {
+@media only screen and (min-width: 768px)  {
 
-
+    #Navbar{
+        display: flex;
+        gap: 125px;
+        margin-left: 55px;
+    }
     
+    .navbarLinks{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    
+    }
+    
+    .icons{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+    }
+    
+    #Be-stylish{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 40px;
+    }
+    
+    #green-cap{
+        width: 180px;
+        height: 145px;
+    }
+    
+    #green-cap-and-paragraph{
+        display: flex;
+        gap: 95px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        margin-left: 55px;
+    }
+    
+    #shopNow{
+        color: black;
+    }
+    
+    #sweater{
+        width: 750px;
+        height: 550px;
+    }
+    
+    #handbag{
+        width: 375px;
+        height: 230px;
+    }
+    
+    #glasses{
+        width: 375px;
+        height: 230px;
+    }
+    
+    #sandals{
+        width: 745px;
+        height: 350px;
+    }
+    
+    #hanbag-glasses{
+        display: flex;
+        gap: 5px;
+    }
+    
+    /*#items1{
+    display: flex;
+    gap: 2px;
+     } */
+    
+    
+     #glasses-button{
+        position: absolute;
+        left: 270px;
+        top: 840px;
+        border: white;
+     }
+    
+     #Handbags-button{
+        position: absolute;
+        left: 55px;
+        top: 840px;
+        border: white;
+     }
+    
+     #Tops-button{
+        position: absolute;
+        left: 130px;
+        top: 650px;
+        border: white;
+     }
+    
+     #label-modern-design{
+        position: absolute;
+        left: 130px;
+        top: 960px;
+        border: white;
+    
+     }
+    
+     #h3-modern-design{
+        position: absolute;
+        left: 130px;
+        top: 980px;
+        border: white;
+     }
+    
+     #a-modern-design{
+        position: absolute;
+        left: 130px;
+        top: 1030px;
+        color: black;
+        border: white;
+     }
+    
+     #a-Latest-products{
+        color: black;
+     }
+    
+     .best-sellers{
+        text-decoration: none;
+        color: grey;
+        margin-left: 35px;
+     }
+    
+    #latest-best-featured-products{
+        margin: 50px 10px;
+    }
+    
+    .photos{
+        width: 155px;
+        height: 140px;
+    }
+    
+    #photo-first-row{
+        display: flex;
+        gap: 5px;
+    }
+    
+    #photo-second-row{
+        display: flex;
+        gap: 5px;
+    }
+    
+    #ig-alishan{
+    text-align: center;
+    }
+    
+    .photo-last-raw{
+        width: 150px;
+        height: 150px;
+        margin-left: 25px;
+    }
+    
+    #submit-button{
+        color: white;
+        background-color: black;
+        padding: 3px;
+        border-radius: 2px;
+        position: absolute;
+        border: black 1px;
+        top: 2150px;
+        left: 188px;
+    }
+    
+    .payments-means{
+        width: 10px;
+        height: 10px;
+        margin-left: 4px;
+    }
+    
+
     
 }
